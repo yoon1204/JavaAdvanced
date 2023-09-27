@@ -1,0 +1,12 @@
+package java2prj1.interfaceEx.cast;
+
+public class 캐스팅연습 {
+
+	
+	public static void main(String[] args) {
+		
+		Score s = new Score("홍길동",100,90);
+		
+		System.out.println(s);
+	}
+}

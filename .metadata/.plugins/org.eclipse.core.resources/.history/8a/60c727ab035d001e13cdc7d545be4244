@@ -1,0 +1,12 @@
+package java2prj.day3.실습;
+
+import java.util.ArrayList;
+
+public class CustomerTest {
+	
+	public static void main(String[] args) {
+		ArrayList<Customer> list = new Customer<>();
+		list.add("sm01,"김종현","vvip","100p");
+		
+}
+}

@@ -1,0 +1,36 @@
+package java2prj1.interfaceEx.ice;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Icecream형을 담을 수 있는 ArrayList를 준비한다
+		ArrayList<Icecream> list = new ArrayList<Icecream>();
+		
+		// Icecream을 상속받았으므로 각 각의 아이스크림 클래스를 담을 수 있다
+		list.add(new B("B"));
+		list.add(new L("L"));
+		list.add(new N("N"));
+		
+		// 아이스크림 회사별로 ArrayList 준비하기
+		ArrayList<Binggrae> 빙그레 = new ArrayList<Binggrae>();
+		ArrayList<Lotte> 롯데 = new ArrayList<Lotte>();
+		ArrayList<Natuur> 나뚜루 = new ArrayList<Natuur>();
+		
+		// 아이스크림 종류별로 목록을 구성한다.
+		for(Icecream icecream : list) {
+			if(icecream instanceof Binggrae) {
+				빙그레.add((Binggrae) icecream);
+			} else if (icecream instanceof Lotte) {
+				롯데.add((Lotte) icecream);
+			} else if (icecream instanceof Natuur) {
+				나뚜루.add((Natuur) icecream);
+			}
+		}
+		
+		System.out.println("--빙그레 아이스크림--");
+		System.out.println(Binggrae);
+	}
+}

@@ -1,0 +1,8 @@
+package java2prj1.generic.arrayList;
+
+public class MyArraysTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

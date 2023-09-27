@@ -1,0 +1,14 @@
+package java2prj2.toy;
+
+public class FoodTest {
+	public static void main(String[] args) {
+		
+		FoodBox<korean> list = new FoodBox<korean>();
+		
+		list.add(new korean("비빔밥"));
+		list.add(new korean("콩국수"));
+		
+		FoodBox<japan> list = new FoodBox<japan>();
+	
+}
+}

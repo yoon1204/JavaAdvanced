@@ -1,0 +1,15 @@
+package java2prj1.interfaceEx.ice;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ArrayList<icecream> list = new ArrayList<icecream>();
+		
+		list.add(new B("B"));
+		list.add(new L("L"));
+		list.add(new N("N"));
+	}
+}

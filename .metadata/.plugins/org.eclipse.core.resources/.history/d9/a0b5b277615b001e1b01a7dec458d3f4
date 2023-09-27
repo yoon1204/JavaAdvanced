@@ -1,0 +1,12 @@
+package java2prj1.interfaceEx.ice;
+
+public class B extends icecream implements Binggrae{
+	
+	public B() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public B(String name) {
+		super(name);
+	}
+}

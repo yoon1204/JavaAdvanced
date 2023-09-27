@@ -1,0 +1,37 @@
+package java2prj1.실습;
+
+import java.util.function.Consumer;
+
+public class 실습2 {
+
+	public static void main(String[] args) {
+		
+		Consumer<String> r = str -> System.out.println("열라면, 순두부, 대파, 청양고추, 계란, 다진마늘, 고춧가루를 준비해주세요.\r\n"+str);
+		r.accept("열라면이 원래 물 500ml인데\r\n"
+				+ "순두부를 넣을거라서 물을 400ml만 넣어야 해요\r\n"				
+				);
+		
+		Consumer<String> r2 = new Consumer<>() {
+			
+			public void accept(String t) {
+				System.out.println(t+"1인분은 반 모만 넣어줍니다.\r\n");
+						
+						
+			}};
+			
+		r2.accept("2인분이면 전부 다 넣으면 되는데\n");
+		
+		class B implements Consumer<String>{
+
+			@Override
+			public void accept(String t) {
+				// TODO Auto-generated method stub
+				System.out.println(t+"감자, 당근, 양파, 대파를 적당한 크기로 썰어요");
+			}	
+		}
+		 B b = new B();
+		 b.accept("기름을 두르지 않은 달군 팬에 닭껍질을 앞뒤 노릇하게 굽고 양배추를 넣어요");
+		 
+		 
+	}
+}

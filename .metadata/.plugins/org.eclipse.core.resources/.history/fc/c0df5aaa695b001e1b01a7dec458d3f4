@@ -1,0 +1,13 @@
+package java2prj1.generic.printer;
+
+public class Material extends {
+
+	String content="plastic";
+
+	@Override
+	public String toString() {
+		return "Material [content=" + content + "]";
+	}
+	
+	
+}

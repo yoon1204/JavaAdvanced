@@ -1,0 +1,12 @@
+package java2prj1.interfaceEx.sm;
+
+public class Sm {
+
+	String name;
+	
+	public void 
+
+	public Sm() {
+		// TODO Auto-generated constructor stub
+	}
+}

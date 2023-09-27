@@ -1,0 +1,20 @@
+package java2prj.day3.stream;
+
+import java.util.stream.IntStream;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+	
+		
+		IntStream intStream = IntStream.range(1,  10);
+		intStream.skip(3).limit(5).forEach(num -> System.out.println(num));
+		
+		
+		
+		
+		
+		
+	}
+
+}

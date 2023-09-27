@@ -1,0 +1,23 @@
+package java2prj1.generic.printer;
+
+public class ThreeDPrintTtest {
+
+	public static void main(String[] args) {
+	
+		
+		ThreeDPrinterPlastic p = new ThreeDPrinterPlastic();
+		p.setMaterial(new Plastic());
+		p.print();
+		
+		
+		ThreeDPrinterPowder p2 = new ThreeDPrinterPowder();
+		p2.setMaterial(new Powder());
+		p2.print();
+		
+		
+		
+		
+		
+}
+	
+}

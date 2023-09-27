@@ -1,0 +1,12 @@
+package java2prj1.interfaceEx.sm;
+
+public class icecream {
+
+	String name;
+	
+	public void 
+
+	public icecream() {
+		// TODO Auto-generated constructor stub
+	}
+}

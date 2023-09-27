@@ -1,0 +1,10 @@
+package java2prj1.lamda.sort;
+
+public class MovingList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

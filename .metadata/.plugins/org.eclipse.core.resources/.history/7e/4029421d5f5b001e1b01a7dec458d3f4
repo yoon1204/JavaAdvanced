@@ -1,0 +1,31 @@
+package java2prj1.interfaceEx.sm;
+
+public class Sm {
+
+	String name;
+	
+	public void 샤이니() {
+		System.out.println("샤이니");
+	}
+	
+	public void 동방신기() {
+		System.out.println("동방신기");
+	}
+	
+	public void 슈퍼주니어() {
+		System.out.println("슈퍼주니어");
+	}
+	
+	public void NCT() {
+		System.out.println("NCT");
+	}
+	
+	@Override
+	public String toString() {
+		return "Sm [name=" + name + "]";
+	}
+
+	public Sm() {
+		// TODO Auto-generated constructor stub
+	}
+}

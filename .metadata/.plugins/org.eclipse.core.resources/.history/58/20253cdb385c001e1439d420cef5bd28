@@ -1,0 +1,22 @@
+package java2prj1.lamda;
+
+import java.util.function.Function;
+
+/*
+ * 
+ * interface Function<T, R>{
+ * 	 R apply(T);
+ * }
+ * 
+ */
+public class FunctionTest {
+	
+	public static void main(String[] args) {
+		
+		Function<Integer, Integer> f1 = su -> su*2;
+		
+		int result1=f1.apply(10);
+		System.out.println(result1);
+	}
+
+}
