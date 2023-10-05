@@ -1,0 +1,23 @@
+package day4.실습;
+
+public class 과제1 {
+
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		// TODO Auto-generated method stub
+		
+		
+		Food food = new Food("불고기","한국"); 
+		System.out.println(food.toString());
+		System.out.println(food);
+		
+		
+		Class a =Class.forName("day4.실습.Food");
+		Food b  = (Food)a.newInstance();
+		System.out.println( b);
+		
+		
+		
+
+	}
+
+}

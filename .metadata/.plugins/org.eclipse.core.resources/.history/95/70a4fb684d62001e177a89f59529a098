@@ -1,0 +1,15 @@
+package day4.reflect;
+
+import java.lang.reflect.Field;
+
+public class 클래스정보출력하기 {
+	public static void main(String[] args) throws ClassNotFoundException {
+		
+		
+		Class clazz = Class.forName("day4.reflect.Member");
+		
+		java.lang.reflect.Field[] fields = clazz.getFields();
+	
+	}
+
+}

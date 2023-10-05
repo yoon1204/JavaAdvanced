@@ -1,0 +1,9 @@
+package day4.실습;
+
+public class ACook implements Cook{
+	
+	public String cook(String a, String b) {
+		System.out.println();
+	}
+
+}

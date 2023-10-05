@@ -1,0 +1,9 @@
+package day4.실습;
+
+public class BCalculator {
+
+	public int add(int a, int b) {
+		System.out.println("B");
+		return a+b;
+	}
+}

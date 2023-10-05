@@ -1,0 +1,10 @@
+package day4.reflect;
+
+public class 객체생성하기3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

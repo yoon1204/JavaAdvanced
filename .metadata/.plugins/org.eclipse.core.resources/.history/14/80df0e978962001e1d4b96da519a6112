@@ -1,0 +1,11 @@
+package day4.실습;
+
+public class ACook implements Cook{
+	
+	@Override
+	public String cook(String a, String b) {
+		System.out.println("요리사");
+		return a+b;
+	}
+
+}

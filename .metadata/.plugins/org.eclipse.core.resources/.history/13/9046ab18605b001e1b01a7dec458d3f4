@@ -1,7 +1,0 @@
-package java2prj1.interfaceEx.ice;
-
-public class Binggrae {
-	public String  슈퍼콘();
-    public String  캔디바();
-    public String  따옴바(); 
-}
