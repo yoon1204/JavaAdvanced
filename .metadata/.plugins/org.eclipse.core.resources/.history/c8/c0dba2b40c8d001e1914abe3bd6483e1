@@ -1,0 +1,32 @@
+package day4.실습;
+
+public class Main {
+	import java.util.*;
+
+	
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+
+	        // 자연수 N 입력
+	        int n = scanner.nextInt();
+
+	        // N개의 정수 배열 생성 및 입력
+	        int[] numbers = new int[n];
+	        for (int i = 0; i < n; i++) {
+	            numbers[i] = scanner.nextInt();
+	        }
+
+	        // 첫 번째 수는 무조건 출력
+	        System.out.print(numbers[0] + " ");
+
+	        // 자신의 바로 앞 수보다 큰 수만 출력
+	        for (int i = 1; i < n; i++) {
+	            if (numbers[i] > numbers[i - 1]) {
+	                System.out.print(numbers[i] + " ");
+	            }
+	        }
+
+	        scanner.close();
+	    }
+	}
+}
